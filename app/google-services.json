@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496855714147",
+    "project_id": "ezchat-54c03",
+    "storage_bucket": "ezchat-54c03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496855714147:android:1f456dcf7eeee367dd6b56",
+        "android_client_info": {
+          "package_name": "com.example.ezchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUiOo7yPQhVUs2lZSM5ri1gKLmd9hdu68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
