@@ -27,7 +27,7 @@ var userinfo = ArrayList<userinfo>()
         userinfo = arrayListOf()
         var search_user= findViewById<ImageView>(R.id.search_user_btn)
         var recyclerview = findViewById<RecyclerView>(R.id.recyclerview)
-        adapter = myAdapter(userinfo)
+        adapter = myAdapter(this,userinfo)
         recyclerview.adapter = adapter
         recyclerview.layoutManager = LinearLayoutManager(this)
 
