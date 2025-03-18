@@ -48,7 +48,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/user_send_message"
             android:layout_width="321dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -61,7 +61,7 @@
             android:textColorHint="@color/white" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/user_message_send"
             android:layout_width="43dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

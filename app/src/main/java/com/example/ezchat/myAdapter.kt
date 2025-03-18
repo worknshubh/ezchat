@@ -1,5 +1,6 @@
 package com.example.ezchat
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -19,6 +20,7 @@ class myAdapter(val Context:Context,var userinfo: List<userinfo>): RecyclerView.
         return userinfo.size
     }
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onBindViewHolder(holder: myViewHolder, position: Int) {
         val user = userinfo[position]
        holder.user_name.text = user.username

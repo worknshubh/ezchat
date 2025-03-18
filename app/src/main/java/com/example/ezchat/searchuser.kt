@@ -52,7 +52,6 @@ var userinfo = ArrayList<userinfo>()
                         for (document in documents) {
                             val name = document.getString("username") ?: "No Name"
                             val email = document.getString("usermail") ?: "No Email"
-
                             // Add user to the list
                             userinfo.add(userinfo(name, email))
                         }
