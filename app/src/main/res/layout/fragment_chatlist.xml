@@ -6,12 +6,8 @@
     tools:context=".chatlist"
     android:background="@color/black">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragrecview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="ChatScreen"
-        android:textColor="@color/white"
-        android:textSize="28sp" />
-
+        android:layout_height="match_parent" />
 </FrameLayout>

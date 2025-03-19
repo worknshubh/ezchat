@@ -37,8 +37,8 @@
 
     </LinearLayout>
 
-    <View
-        android:id="@+id/view"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="579dp" />
 
